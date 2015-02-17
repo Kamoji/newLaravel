@@ -1,0 +1,13 @@
+body {
+    background-color: red;
+}
+
+label, #submit {
+    display: block;
+}
+
+#date_of_birth::-webkit-inner-spin-button,
+#date_of_birth::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
